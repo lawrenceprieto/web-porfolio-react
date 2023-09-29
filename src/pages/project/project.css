@@ -3,6 +3,30 @@
     margin: 0 auto;
 }
 
+.btn-close {
+    background-color: white;
+    color: black;
+    border-radius: 0;
+}
+
+.modal {
+    background-color: gainsboro;
+}
+
+.modal-header {
+    background-color: #12283d;
+    color: white;
+    padding: 10px 30px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.modal-footer {
+    background-color: white;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
 button {
     background: #12283d;
     border: none;

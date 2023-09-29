@@ -1,5 +1,5 @@
 import "./about.css"
-// import image from "../../assets/picture.jpg"
+import image from "../../assets/picture.jpg"
 import html from "../../assets/tech-icon/html5.png"
 import css from "../../assets/tech-icon/css3.png"
 import javascript from "../../assets/tech-icon/javascript.png"
@@ -40,7 +40,7 @@ function About() {
                     <h1>ABOUT</h1>
                 </div>
                 <div className="d-flex gap-3 mobile">
-                    {/* <img src={image} className="image desk" alt="my-picture" /> */}
+                    <img src={image} className="image desk" alt="my-picture" />
                     <div className="">
                     <p className="">
                         Hello, Lawrence here, a junior front-end developer with a burning curiosity                        for all things tech-related. My journey into the world of web development began 

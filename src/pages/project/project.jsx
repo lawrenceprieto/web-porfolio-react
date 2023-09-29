@@ -6,14 +6,21 @@ import capstone from "../../assets/project-image/capstone.gif"
 import Card from "../../components/card"
 import Modal from "react-bootstrap/Modal"
 
+import html from "../../assets/tech-icon/html5.png"
+import css from "../../assets/tech-icon/css3.png"
+import javascript from "../../assets/tech-icon/javascript.png"
+import react from "../../assets/tech-icon/react.png"
+import bootstrap from "../../assets/tech-icon/bootstrap.png"
+
 
 function Project() {
 
     const projects = [
         {
             "title": "Tree Life",
-            "description": "This is our mini-project, i created a multi web page porfolio using html css and javascript",
+            "description": "Treelife is a website that aims to protecting trees",
             "thumbnail": treelife,
+            "techs": [javascript, react, bootstrap],
             "github": "https://github.com/lawrenceprieto/tree-life?search=1",
             "demo": "https://lawrenceprieto.github.io/tree-life"
         },
@@ -37,6 +44,7 @@ function Project() {
     function handleModal(project) {
         setSelectedProject(project);
         setModalShow(true);
+        console.log(project);
     }
 
     function closeModal() {
@@ -76,14 +84,25 @@ function Project() {
                 keyboard={false}
                 dialogclassname="modal"
                 centered>
-                <Modal.Header closeButton>
+                <Modal.Header closeButton dialogclassname="modal-header">
                     <Modal.Title>{selectedProject && selectedProject.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={selectedProject && selectedProject.thumbnail} alt={selectedProject && selectedProject.title} />
-                    <h2>{selectedProject && selectedProject.description}</h2>
+                    <div className="d-flex gap-3">
+                        <img height="250px" width="450px" src={selectedProject && selectedProject.thumbnail} alt={selectedProject && selectedProject.title} />
+                        <div className="">
+                            <h3 style={{fontSize: "15px"}}>{selectedProject && selectedProject.description}</h3>
+                            <h3 style={{fontSize: "15px"}}>tech used</h3>
+                            <div className="d-flex gap-1">
+                                {selectedProject && selectedProject.techs.map((tech, index) => (
+                                        <img key={index} src={tech} alt={tech} style={{ height: "50px", width: "50px" }} />
+                                    )) 
+                                }
+                            </div>
+                        </div>
+                    </div>
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer dialogclassname="modal-footer">
                     <a href={selectedProject && selectedProject.github} rel="noreferrer" target="_blank">Github</a>
                     <a href={selectedProject && selectedProject.demo} rel="noreferrer" target="_blank">Demo</a>
                 </Modal.Footer>
