@@ -1,6 +1,7 @@
 import Header from "./components/header/header"
 import Herobanner from "./components/herobanner/herobanner"
 import About from "./pages/about/about"
+import Contact from "./pages/contact/contact"
 import Project from "./pages/project/project"
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <Herobanner />
       <About />   
-      <Project />     
+      <Project />
+      <Contact />   
     </>
   )
 }

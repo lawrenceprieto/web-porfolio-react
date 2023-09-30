@@ -1,0 +1,12 @@
+.contact {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-content a {
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    text-decoration-line: underline;
+}
