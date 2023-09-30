@@ -1,3 +1,4 @@
+import Footer from "./components/footer"
 import Header from "./components/header/header"
 import Herobanner from "./components/herobanner/herobanner"
 import About from "./pages/about/about"
@@ -11,7 +12,8 @@ function App() {
       <Herobanner />
       <About />   
       <Project />
-      <Contact />   
+      <Contact />
+      <Footer />
     </>
   )
 }
