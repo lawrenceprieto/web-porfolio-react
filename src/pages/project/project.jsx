@@ -11,6 +11,9 @@ import css from "../../assets/tech-icon/css3.png"
 import javascript from "../../assets/tech-icon/javascript.png"
 import react from "../../assets/tech-icon/react.png"
 import bootstrap from "../../assets/tech-icon/bootstrap.png"
+import laravel from "../../assets/tech-icon/laravel.png"
+import mysql from "../../assets/tech-icon/mysql.png"
+import php from "../../assets/tech-icon/php.png"
 
 
 function Project() {
@@ -28,13 +31,15 @@ function Project() {
             "title": "Jennie's Pizza",
             "description": "This project is created using html, css and javascript",
             "thumbnail": mini,
+            "techs": [html, css, javascript],
             "github": "https://github.com/Ierie/jenniespizza?search=1",
             "demo": "https://ierie.github.io/jenniespizza/#home"
         },
         {
             "title": "CourseCraft",
-            "description": "This project is created using react js for the frontend and laravel for the backend",
-            "thumbnail": capstone
+            "description": "This project is created ushis project is created using react js for the frontend and laravel for the backending react js for the frontend and laravel for the backendhis project is created using react js for the frontend and laravel for the backend",
+            "thumbnail": capstone,
+            "techs": [javascript, react, laravel , mysql, php, bootstrap],
         },
     ];
 
@@ -87,25 +92,32 @@ function Project() {
                 <Modal.Header closeButton dialogclassname="modal-header">
                     <Modal.Title>{selectedProject && selectedProject.title}</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                    <div className="d-flex gap-3">
-                        <img height="250px" width="450px" src={selectedProject && selectedProject.thumbnail} alt={selectedProject && selectedProject.title} />
-                        <div className="">
-                            <h3 style={{fontSize: "15px"}}>{selectedProject && selectedProject.description}</h3>
-                            <h3 style={{fontSize: "15px"}}>tech used</h3>
-                            <div className="d-flex gap-1">
+                <Modal.Body dialogclassname="modal-body">
+                    <div className="d-flex gap-3 pb-3 p-2 screen">
+                        <img height="250px" width="auto" src={selectedProject && selectedProject.thumbnail} alt={selectedProject && selectedProject.title} />
+                        <div className="d-flex flex-column justify-content-between">
+                            <div className="">
+                            <h3 style={{fontSize: "15px" ,fontWeight: "bold"}}>Project description:</h3>
+                            <h3 className="mb-4" style={{fontSize: "15px"}}>{selectedProject && selectedProject.description}</h3>
+                            <h3 style={{fontSize: "15px", fontWeight: "bold"}}>Project tech used:</h3>
+                            <div className="d-flex flex-wrap gap-1 mb-5">
                                 {selectedProject && selectedProject.techs.map((tech, index) => (
                                         <img key={index} src={tech} alt={tech} style={{ height: "50px", width: "50px" }} />
                                     )) 
                                 }
                             </div>
+                            </div>
+                            <div className="d-flex gap-3">
+                                <a className="button text-center w-50" href={selectedProject && selectedProject.github} rel="noreferrer" target="_blank">Github</a>
+                                <a className="button text-center w-50" href={selectedProject && selectedProject.demo} rel="noreferrer" target="_blank">Demo</a>
+                            </div>
                         </div>
                     </div>
                 </Modal.Body>
-                <Modal.Footer dialogclassname="modal-footer">
-                    <a href={selectedProject && selectedProject.github} rel="noreferrer" target="_blank">Github</a>
-                    <a href={selectedProject && selectedProject.demo} rel="noreferrer" target="_blank">Demo</a>
-                </Modal.Footer>
+                {/* <Modal.Footer dialogclassname="modal-footer">
+                    <a className="button text-center" href={selectedProject && selectedProject.github} rel="noreferrer" target="_blank">Github</a>
+                    <a className="button text-center" href={selectedProject && selectedProject.demo} rel="noreferrer" target="_blank">Demo</a>
+                </Modal.Footer> */}
             </Modal>
         </>
     );

@@ -21,13 +21,14 @@
     border-top-left-radius: 0;
 }
 
-.modal-footer {
+.modal-body {
     background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.432);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-button {
+.button {
     background: #12283d;
     border: none;
     padding: 5px 10px;
@@ -44,7 +45,7 @@ span {
     display: inline-block;
 }
 
-button::before {
+.button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -57,12 +58,26 @@ button::before {
     transition: all 0.5s;
 }
 
-button:hover {
+.button:hover {
     color: #12283d;
 }
 
-button:hover::before {
+.button:hover::before {
     left: 0;
     right: 0;
     opacity: 1;
+}
+
+@media (min-width: 582px) and (max-width: 992px) {
+    .screen {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 581px) {
+    .screen {
+        display: flex;
+        flex-direction: column;
+    }
 }
