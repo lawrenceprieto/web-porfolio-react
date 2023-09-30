@@ -75,11 +75,17 @@ span {
         display: flex;
         flex-direction: column;
     }
+    .project {
+        width: 90%;
+    }
 }
 
 @media (max-width: 581px) {
     .screen {
         display: flex;
         flex-direction: column;
+    }
+    .project {
+        width: 90%;
     }
 }
