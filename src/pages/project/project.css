@@ -52,20 +52,22 @@ span {
     bottom: 0;
     right: 100%;
     left: 0;
-    background: white;
+    background: gainsboro;
     opacity: 0;
     z-index: -1;
     transition: all 0.5s;
 }
 
 .button:hover {
-    color: #12283d;
+    color: black;
+    font-weight: bold;
 }
 
 .button:hover::before {
     left: 0;
     right: 0;
     opacity: 1;
+    text-decoration-line: underline;
 }
 
 @media (min-width: 582px) and (max-width: 992px) {
