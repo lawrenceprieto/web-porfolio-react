@@ -32,9 +32,6 @@ function Header() {
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#project">Project</a></li>
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#contact">Contact</a></li>
                         <li class="nav-item navi py-1 pb-5"><a class="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs" target="_blank">Blog</a></li>
-                        <li>
-                            
-                        </li>
                     </ul>
                     <ul className="justify-content-center list-unstyled d-flex pt-3 pb-5">
                         <li className="ms-3"><a href={facebook} className="text-body-secondary" target="_blank"><i className="fa-xl fa-brands fa-facebook" style={{color: "#3b5998"}}></i></a></li>
