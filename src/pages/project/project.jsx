@@ -61,7 +61,7 @@ function Project() {
     return (
         <>
             <div className="project" id="project">
-                <div className="d-flex align-items-center gap-3">
+                <div className="d-flex align-items-center gap-3 border-bottom mb-5">
                     <div className="rectangle"></div>
                     <h1>PROJECT</h1>
                 </div>

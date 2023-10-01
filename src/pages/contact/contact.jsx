@@ -4,7 +4,7 @@ function Contact() {
     return (
         <> 
             <div className="contact" id="contact">
-                <div className="d-flex align-items-center gap-3">
+                <div className="d-flex align-items-center gap-3 border-bottom mb-5">
                     <div className="rectangle"></div>
                     <h1>CONTACT</h1>
                 </div>

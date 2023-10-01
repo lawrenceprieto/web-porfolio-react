@@ -41,7 +41,7 @@ function About() {
     return (
         <>
             <div className="about" id="about">
-                <div className="d-flex align-items-center gap-3">
+                <div className="d-flex align-items-center gap-3 border-bottom mb-5">
                     <div className="rectangle"></div>
                     <h1>ABOUT</h1>
                 </div>
@@ -68,7 +68,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="d-flex flex-wrap gap-4 border-top mt-4 pt-3">
+                <div className="d-flex flex-wrap gap-4 mt-4 pt-3">
                     <div className="">
                         <h3 className="mob mtop" style={{color: "#444444"}}>Development tool i used</h3>
                         <div className="d-flex flex-wrap gap-1 center">
