@@ -8,6 +8,8 @@ import bootstrap from "../../assets/tech-icon/bootstrap.png"
 import adobe from "../../assets/tool-icon/adobe-express.jpg"
 import canva from "../../assets/tool-icon/canva.png"
 import clipchamp from "../../assets/tool-icon/clipchamp.png"
+import excel from "../../assets/data-icon/excel.png"
+import word from "../../assets/data-icon/word.png"
 
 function About() {
     
@@ -29,6 +31,10 @@ function About() {
             {"icon": adobe, "name": "Adobe Express"},
             {"icon": canva, "name": "Canva"}, 
             {"icon": clipchamp, "name": "Clipchamp"}, 
+        ],
+        entrys: [
+            {"icon": excel, "name": "Excel"},
+            {"icon": word, "name": "Word"}
         ]
     }
 
@@ -62,7 +68,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="d-flex gap-3 border-top mt-3 pt-3">
+                <div className="d-flex flex-wrap gap-4 border-top mt-4 pt-3">
                     <div className="">
                         <h3 className="mob mtop" style={{color: "#444444"}}>Development tool i used</h3>
                         <div className="d-flex flex-wrap gap-1 center">
@@ -81,10 +87,24 @@ function About() {
                         <h3 className="mob mtop" style={{color: "#444444"}}>Editing tool i used</h3>
                         <div className="d-flex flex-wrap gap-1 center">
                             {
-                                data.tools.map((tech, index) => (
+                                data.tools.map((tool, index) => (
                                     <div className="icon" key={index}>
-                                    <img src={tech.icon} alt="html" height="50px" width="50px" />
-                                    <span className="mt-1" style={{color: "#b8b8b8"}}>{tech.name}</span>
+                                    <img src={tool.icon} alt="html" height="50px" width="50px" />
+                                    <span className="mt-1" style={{color: "#b8b8b8"}}>{tool.name}</span>
+                                </div>
+                                ))
+                            }
+                        </div>
+                    </div>
+
+                    <div className="">
+                        <h3 className="mob mtop" style={{color: "#444444"}}>Data entry tool i used</h3>
+                        <div className="d-flex flex-wrap gap-1 center">
+                            {
+                                data.entrys.map((entry, index) => (
+                                    <div className="icon" key={index}>
+                                    <img src={entry.icon} alt="html" height="50px" width="50px" />
+                                    <span className="mt-1" style={{color: "#b8b8b8"}}>{entry.name}</span>
                                 </div>
                                 ))
                             }
