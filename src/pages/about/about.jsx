@@ -48,7 +48,7 @@ function About() {
                 <div className="d-flex gap-3 mobile">
                     <img src={image} className="image desk" alt="my-picture" />
                     <div className="">
-                    <p className="" style={{fontSize: "17px"}}>
+                    <p className="pb-1" style={{fontSize: "17px"}}>
                         Hello, Lawrence here, a junior front-end developer with a burning curiosity                        for all things tech-related. My journey into the world of web development began 
                         with a simple fascination for how websites worked.  I am always eager to learn 
                         new techniques and technologies. Every project I undertake is not just a task 

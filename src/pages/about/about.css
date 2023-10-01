@@ -22,9 +22,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .desk {
-        display: none;
-    }
     .about {
         width: 90%;
     }
@@ -41,7 +38,10 @@
     .mobile {
         flex-direction: column;
     }
-    .desk {
-        display: none;
+}
+
+@media (min-width: 901px) and (max-width: 1010px) {
+    .mobile {
+        flex-direction: column;
     }
 }
