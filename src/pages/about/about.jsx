@@ -55,7 +55,7 @@ function About() {
                         but an opportunity to expand my skill set and grow as a developer.
                     </p>
                     <h3 className="mob mtop" style={{color: "#444444"}}>Interest and Hobbies</h3>
-                    <div className="d-flex gap-1 center">
+                    <div className="d-flex flex-wrap gap-1 center">
                         {
                             data.hobbies.map((hobby, index) => (
                                 <div className="icon" key={index}>
