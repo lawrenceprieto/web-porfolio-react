@@ -24,11 +24,11 @@ function Header() {
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://lawrenceprieto.github.io/blogs">Blog</a></li>
+                        <li class="nav-item navi py-1 pt-3"><a class="nav-link h-u-a" href="#home">Home</a></li>
+                        <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#about">About</a></li>
+                        <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#project">Project</a></li>
+                        <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#contact">Contact</a></li>
+                        <li class="nav-item navi py-1 pb-5"><a class="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs">Blog</a></li>
                     </ul>
                 </div>
             </div>
