@@ -89,3 +89,9 @@ span {
         width: 90%;
     }
 }
+
+@media (min-width: 901px) and (max-width: 1010px) {
+    .project {
+        width: 80%;
+    }
+}

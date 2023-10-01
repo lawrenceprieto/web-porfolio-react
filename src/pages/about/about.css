@@ -41,6 +41,9 @@
 }
 
 @media (min-width: 901px) and (max-width: 1010px) {
+    .about {
+        width: 80%;
+    }
     .mobile {
         flex-direction: column;
     }
