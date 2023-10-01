@@ -31,7 +31,7 @@ function Header() {
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#about">About</a></li>
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#project">Project</a></li>
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#contact">Contact</a></li>
-                        <li class="nav-item navi py-1 pb-5"><a class="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs">Blog</a></li>
+                        <li class="nav-item navi py-1 pb-5"><a class="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs" target="_blank">Blog</a></li>
                         <li>
                             
                         </li>
