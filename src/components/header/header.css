@@ -90,3 +90,65 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+/* Copyright - 2023 adamgiebl (Adam Giebl) @uiverse.io
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: */
+#checkbox2 {    
+    display: none;
+}
+  
+.toggle2 {
+    position: relative;
+    width: 64px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+}
+  
+.bars {
+    width: 80%;
+    height: 5px;
+    background-color: white;
+    border-radius: 0;
+}
+  
+#bar5 {
+    transition-duration: .8s;
+}
+  
+#bar4,#bar6 {
+    width: 70%;
+}
+  
+#checkbox2:checked + .toggle2 .bars {
+    position: absolute;
+    transition-duration: .5s;
+}
+  
+#checkbox2:checked + .toggle2 #bar5 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+}
+  
+#checkbox2:checked + .toggle2 #bar4 {
+    width: 60%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+}
+  
+#checkbox2:checked + .toggle2 #bar6 {
+    width: 60%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+}
+  
+#checkbox2:checked + .toggle2 {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+}
+/* end of copyright */

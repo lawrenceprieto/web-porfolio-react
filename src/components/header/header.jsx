@@ -14,16 +14,19 @@ function Header() {
                         <span className="navi"><a href="https://lawrenceprieto.github.io/blogs" className="h-u-a" rel="noreferrer" target="_blank">Blogs</a></span>
                     </div>
                     <div className="m-nav">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <input id="checkbox2" type="checkbox" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" />
+                        <label class="toggle toggle2" for="checkbox2">
+                            <div id="bar4" class="bars"></div>
+                            <div id="bar5" class="bars"></div>
+                            <div id="bar6" class="bars"></div>
+                        </label>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>.
+                        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://lawrenceprieto.github.io/blogs">Blog</a></li>
                     </ul>
