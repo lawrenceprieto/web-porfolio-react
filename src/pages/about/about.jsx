@@ -61,35 +61,35 @@ function About() {
                     </div>
                     </div>
                 </div>
-                
-                <div className="d-flex align-items-center gap-3 center">
-                    <div className="rectangle desk"></div>
-                    <h2 className="mob mtop">Tech i used</h2>
-                </div>
-                <div className="d-flex flex-wrap gap-1 center">
-                    {
-                        data.techs.map((tech, index) => (
-                            <div className="icon" key={index}>
-                                <img src={tech.icon} alt="html" height="50px" width="50px" />
-                                <span className="text-white">{tech.name}</span>
-                            </div>
-                        ))
-                    }
-                </div>
 
-                <div className="d-flex align-items-center gap-1 center">
-                    <div className="rectangle desk"></div>
-                    <h2 className="mob mtop">Tool i used</h2>
-                </div>
-                <div className="d-flex flex-wrap gap-1 center">
-                    {
-                        data.tools.map((tech, index) => (
-                            <div className="icon" key={index}>
-                            <img src={tech.icon} alt="html" height="50px" width="50px" />
-                            <span className="text-white">{tech.name}</span>
+                <div className="d-flex gap-3 border-top mt-3 pt-3">
+                    <div className="">
+                        <h2 className="mob mtop">Tech i used</h2>
+                        <div className="d-flex flex-wrap gap-1 center">
+                            {
+                                data.techs.map((tech, index) => (
+                                    <div className="icon" key={index}>
+                                        <img src={tech.icon} alt="html" height="50px" width="50px" />
+                                        <span className="text-white">{tech.name}</span>
+                                    </div>
+                                ))
+                            }
                         </div>
-                        ))
-                    }
+                    </div>
+
+                    <div className="">
+                        <h2 className="mob mtop">Tool i used</h2>
+                        <div className="d-flex flex-wrap gap-1 center">
+                            {
+                                data.tools.map((tech, index) => (
+                                    <div className="icon" key={index}>
+                                    <img src={tech.icon} alt="html" height="50px" width="50px" />
+                                    <span className="text-white">{tech.name}</span>
+                                </div>
+                                ))
+                            }
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
