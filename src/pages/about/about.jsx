@@ -13,22 +13,22 @@ function About() {
     
     const data = {
         hobbies: [
-            {"icon": "fa-2x fa-solid fa-gamepad", "name": "games"}, 
-            {"icon": "fa-2x fa-solid fa-clapperboard", "name": "movies"}, 
-            {"icon": "fa-2x fa-solid fa-headphones", "name": "music"}, 
-            {"icon": "fa-2x fa-sharp fa-solid fa-laptop-file", "name": "learning"},
+            {"icon": "fa-2x fa-sharp fa-solid fa-laptop-file", "name": "Learning"},
+            {"icon": "fa-2x fa-solid fa-clapperboard", "name": "Movies"}, 
+            {"icon": "fa-2x fa-solid fa-headphones", "name": "Music"},
+            {"icon": "fa-2x fa-solid fa-gamepad", "name": "Games"}, 
         ],
         techs: [
             {"icon": html, "name": "HTML"},
             {"icon": css, "name": "CSS"}, 
-            {"icon": javascript, "name": "JAVASCRIPT"}, 
-            {"icon": react, "name": "REACT"}, 
-            {"icon": bootstrap, "name": "BOOTSTRAP"}, 
-        ] ,
+            {"icon": javascript, "name": "Javascript"}, 
+            {"icon": react, "name": "React"}, 
+            {"icon": bootstrap, "name": "Bootstrap"}, 
+        ],
         tools: [
-            {"icon": adobe, "name": "ADOBE EXPRESS"},
-            {"icon": canva, "name": "CANVA"}, 
-            {"icon": clipchamp, "name": "CLIPCHAMP"}, 
+            {"icon": adobe, "name": "Adobe Express"},
+            {"icon": canva, "name": "Canva"}, 
+            {"icon": clipchamp, "name": "Clipchamp"}, 
         ]
     }
 
@@ -42,19 +42,19 @@ function About() {
                 <div className="d-flex gap-3 mobile">
                     <img src={image} className="image desk" alt="my-picture" />
                     <div className="">
-                    <p className="">
+                    <p className="" style={{fontSize: "17px"}}>
                         Hello, Lawrence here, a junior front-end developer with a burning curiosity                        for all things tech-related. My journey into the world of web development began 
                         with a simple fascination for how websites worked.  I am always eager to learn 
                         new techniques and technologies. Every project I undertake is not just a task 
                         but an opportunity to expand my skill set and grow as a developer.
                     </p>
-                    <h2 className="mob mtop">Hobbies and Interest</h2>
+                    <h3 className="mob mtop" style={{color: "#444444"}}>Interest and Hobbies</h3>
                     <div className="d-flex gap-1 center">
                         {
                             data.hobbies.map((hobby, index) => (
                                 <div className="icon" key={index}>
                                     <i className={hobby.icon} style={{color: "white"}}></i>
-                                    <h3 className="text-white" style={{fontSize: "18px"}}>{hobby.name}</h3>
+                                    <h3 className="mt-1" style={{fontSize: "17px", color: "#b8b8b8"}}>{hobby.name}</h3>
                                 </div> 
                             ))
                         }
@@ -64,13 +64,13 @@ function About() {
 
                 <div className="d-flex gap-3 border-top mt-3 pt-3">
                     <div className="">
-                        <h2 className="mob mtop">Tech i used</h2>
+                        <h3 className="mob mtop" style={{color: "#444444"}}>Development tool i used</h3>
                         <div className="d-flex flex-wrap gap-1 center">
                             {
                                 data.techs.map((tech, index) => (
                                     <div className="icon" key={index}>
                                         <img src={tech.icon} alt="html" height="50px" width="50px" />
-                                        <span className="text-white">{tech.name}</span>
+                                        <span className="mt-1" style={{color: "#b8b8b8"}}>{tech.name}</span>
                                     </div>
                                 ))
                             }
@@ -78,13 +78,13 @@ function About() {
                     </div>
 
                     <div className="">
-                        <h2 className="mob mtop">Tool i used</h2>
+                        <h3 className="mob mtop" style={{color: "#444444"}}>Editing tool i used</h3>
                         <div className="d-flex flex-wrap gap-1 center">
                             {
                                 data.tools.map((tech, index) => (
                                     <div className="icon" key={index}>
                                     <img src={tech.icon} alt="html" height="50px" width="50px" />
-                                    <span className="text-white">{tech.name}</span>
+                                    <span className="mt-1" style={{color: "#b8b8b8"}}>{tech.name}</span>
                                 </div>
                                 ))
                             }
