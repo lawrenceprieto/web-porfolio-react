@@ -19,10 +19,10 @@ function Herobanner() {
                         />
                     </div>
                 </div>
-                <div className="d-flex gap-3 mt-5">
+                {/* <div className="d-flex gap-3 mt-5">
                     <button className="btn btn-outline-secondary px-4" style={{borderRadius: "0%", borderColor: "gainsboro"}}><a style={{textDecoration: "none", color: "gainsboro"}} href="#contact">Contact</a></button>
                     <button className="btn btn-outline-secondary px-4" style={{borderRadius: "0%", borderColor: "gainsboro", color: "gainsboro"}}>Resume</button>
-                </div>
+                </div> */}
             </div>
         </>
     );

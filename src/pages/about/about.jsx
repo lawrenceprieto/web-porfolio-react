@@ -46,7 +46,7 @@ function About() {
                     <h1>ABOUT</h1>
                 </div>
                 <div className="d-flex gap-3 mobile">
-                    <img src={image} className="image desk" alt="my-picture" />
+                    {/* <img src={image} className="image desk" alt="my-picture" /> */}
                     <div className="">
                     <p className="pb-1" style={{fontSize: "17px"}}>
                         Hello, Lawrence here, a junior front-end developer with a burning curiosity                        for all things tech-related. My journey into the world of web development began 
@@ -54,8 +54,8 @@ function About() {
                         new techniques and technologies. Every project I undertake is not just a task 
                         but an opportunity to expand my skill set and grow as a developer.
                     </p>
-                    <h3 className="mob mtop" style={{color: "#444444"}}>Interest and Hobbies</h3>
-                    <div className="d-flex flex-wrap gap-1 center">
+                    {/* <h3 className="mob mtop" style={{color: "#444444"}}>Interest and Hobbies</h3> */}
+                    {/* <div className="d-flex flex-wrap gap-1 center">
                         {
                             data.hobbies.map((hobby, index) => (
                                 <div className="icon" key={index}>
@@ -64,7 +64,7 @@ function About() {
                                 </div> 
                             ))
                         }
-                    </div>
+                    </div> */}
                     </div>
                 </div>
 
