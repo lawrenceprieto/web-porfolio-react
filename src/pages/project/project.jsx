@@ -25,7 +25,7 @@ function Project() {
             "thumbnail": treelife,
             "techs": [javascript, react, bootstrap],
             "github": "https://github.com/lawrenceprieto/tree-life?search=1",
-            "demo": "https://lawrenceprieto.github.io/tree-life"
+            "demo": ""
         },
         {
             "title": "Jennie's Pizza",
@@ -33,13 +33,15 @@ function Project() {
             "thumbnail": mini,
             "techs": [html, css, javascript],
             "github": "https://github.com/Ierie/jenniespizza?search=1",
-            "demo": "https://ierie.github.io/jenniespizza/#home"
+            "demo": ""
         },
         {
             "title": "CourseCraft",
             "description": "This project is created ushis project is created using react js for the frontend and laravel for the backending react js for the frontend and laravel for the backendhis project is created using react js for the frontend and laravel for the backend",
             "thumbnail": capstone,
             "techs": [javascript, react, laravel , mysql, php, bootstrap],
+            "github": "https://github.com/KeLsGaming23/CourseCraft?search=1",
+            "demo": "null"
         },
     ];
 
