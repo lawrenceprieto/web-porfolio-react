@@ -1,5 +1,5 @@
 import "./herobanner.css"
-import Typewriter from 'typewriter-effect'
+import TypewriterComponent from "typewriter-effect";
 
 function Herobanner() {
     return (
@@ -9,7 +9,7 @@ function Herobanner() {
                     <div className="text-uppercase pb-2" style={{fontSize: "20px", letterSpacing: "3px" }}>Hello There!</div>
                     <div className="text-uppercase fw-bold" style={{fontSize: "40px", letterSpacing: "5px"}}>i'm Lawrence, a junior developer</div>
                     <div className="text-secondary" style={{fontSize: "40px", letterSpacing: "5px"}}>
-                        <Typewriter
+                        <TypewriterComponent
                             options={{
                             strings: ['Front-End Developer', 'Data Entry Specialist', "Web Researcher"],
                             pauseFor: (300),
