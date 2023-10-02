@@ -14,7 +14,6 @@ function Header() {
                         <span className="navi"><a href="#home" className="h-u-a">Home</a></span>
                         <span className="navi"><a href="#about" className="h-u-a">About</a></span>
                         <span className="navi"><a href="#project" className="h-u-a">Project</a></span>
-                        <span className="navi"><a href="#contact" className="h-u-a">Contact</a></span>
                         <span className="navi"><a href="https://lawrenceprieto.github.io/blogs" className="h-u-a" rel="noreferrer" target="_blank">Blogs</a></span>
                     </div>
                     <div className="m-nav">
@@ -31,7 +30,6 @@ function Header() {
                         <li class="nav-item navi py-1 pt-3"><a class="nav-link h-u-a" href="#home">Home</a></li>
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#about">About</a></li>
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#project">Project</a></li>
-                        <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#contact">Contact</a></li>
                         <li class="nav-item navi py-1 pb-5"><a class="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs" target="_blank">Blog</a></li>
                     </ul>
                     <ul className="justify-content-center list-unstyled d-flex pt-3 pb-3" style={{backgroundColor: "gainsboro", boxShadow: "0px 4px 7px 1px #000"}}>
