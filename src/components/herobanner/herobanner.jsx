@@ -4,7 +4,7 @@ import TypewriterComponent from "typewriter-effect";
 function Herobanner() {
     return (
         <>
-            <div className="home" id="home">
+            <div className="container-fluid home" id="home">
                 <div className="">
                     <div className="text-uppercase pb-2" style={{fontSize: "20px", letterSpacing: "3px" }}>Hello There!</div>
                     <div className="text-uppercase fw-bold" style={{fontSize: "40px", letterSpacing: "5px"}}>i'm Lawrence, a junior developer</div>
@@ -20,8 +20,8 @@ function Herobanner() {
                     </div>
                 </div>
                 <div className="d-flex gap-3 mt-5">
-                    <button className="btn btn-outline-secondary" style={{borderRadius: "0%"}}>Contact</button>
-                    <button className="btn btn-outline-secondary" style={{borderRadius: "0%"}}>Resume</button>
+                    <button className="btn btn-outline-secondary px-4" style={{borderRadius: "0%", borderColor: "gainsboro", color: "gainsboro"}}>Contact</button>
+                    <button className="btn btn-outline-secondary px-4" style={{borderRadius: "0%", borderColor: "gainsboro", color: "gainsboro"}}>Resume</button>
                 </div>
             </div>
         </>
