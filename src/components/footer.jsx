@@ -13,9 +13,9 @@ function Footer() {
                         tech world and am eager to explore new avenues for growth.
                     </p>
                     <ul className="justify-content-center list-unstyled d-flex border-top pt-3 pb-5">
-                        <li className="ms-3"><a href={facebook} className="text-body-secondary" target="_blank"><i className="fa-xl fa-brands fa-facebook" style={{color: "#3b5998"}}></i></a></li>
-                        <li className="ms-3"><a href={linkedin} className="text-body-secondary" target="_blank" ><i className="fa-xl fa-brands fa-linkedin" style={{color: "#0077b5"}}></i></a></li>
-                        <li className="ms-3"><a href={github} className="text-body-secondary" target="_blank"><i className="fa-xl fa-brands fa-github" style={{color: "#171515"}}></i></a></li>
+                        <li className="ms-3"><a href={facebook} className="text-body-secondary" target="_blank"><i className="fa-2xl fa-brands fa-facebook" style={{color: "#3b5998"}}></i></a></li>
+                        <li className="ms-3"><a href={linkedin} className="text-body-secondary" target="_blank" ><i className="fa-2xl fa-brands fa-linkedin" style={{color: "#0077b5"}}></i></a></li>
+                        <li className="ms-3"><a href={github} className="text-body-secondary" target="_blank"><i className="fa-2xl fa-brands fa-github" style={{color: "#171515"}}></i></a></li>
                     </ul>
                 </div>
             </footer>
