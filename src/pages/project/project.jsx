@@ -94,12 +94,12 @@ function Project() {
                 </Modal.Header>
                 <Modal.Body dialogclassname="modal-body">
                     <div className="d-flex gap-3 pb-3 p-2 screen">
-                        <img height="250px" width="auto" src={selectedProject && selectedProject.thumbnail} alt={selectedProject && selectedProject.title} />
+                        <img style={{border: "2px solid black"}} height="250px" width="auto" src={selectedProject && selectedProject.thumbnail} alt={selectedProject && selectedProject.title} />
                         <div className="d-flex flex-column justify-content-between">
                             <div className="">
-                            <h3 style={{fontSize: "15px" ,fontWeight: "bold"}}>Project description:</h3>
-                            <h3 className="mb-4" style={{fontSize: "15px"}}>{selectedProject && selectedProject.description}</h3>
-                            <h3 style={{fontSize: "15px", fontWeight: "bold"}}>Project tech used:</h3>
+                            <h3 style={{fontSize: "17px" ,fontWeight: "bold"}}>Project description:</h3>
+                            <p className="mb-4" style={{fontSize: "16px"}}>{selectedProject && selectedProject.description}</p>
+                            <h3 style={{fontSize: "17px", fontWeight: "bold"}}>Project tech used:</h3>
                             <div className="d-flex flex-wrap gap-1 mb-5">
                                 {selectedProject && selectedProject.techs.map((tech, index) => (
                                         <img key={index} src={tech} alt={tech} style={{ height: "50px", width: "50px" }} />
