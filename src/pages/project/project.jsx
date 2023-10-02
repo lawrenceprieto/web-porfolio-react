@@ -28,7 +28,7 @@ function Project() {
             "demo": ""
         },
         {
-            "title": "Jennie's Pizza",
+            "title": "React",
             "description": "This project is created using html, css and javascript",
             "thumbnail": mini,
             "techs": [html, css, javascript],

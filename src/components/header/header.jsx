@@ -17,20 +17,20 @@ function Header() {
                         <span className="navi"><a href="https://lawrenceprieto.github.io/blogs" className="h-u-a" rel="noreferrer" target="_blank">Blogs</a></span>
                     </div>
                     <div className="m-nav">
-                        <input id="checkbox2" type="checkbox" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" />
-                        <label class="toggle toggle2" for="checkbox2">
-                            <div id="bar4" class="bars"></div>
-                            <div id="bar5" class="bars"></div>
-                            <div id="bar6" class="bars"></div>
+                        <input id="checkbox2" type="checkbox" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" />
+                        <label className="toggle toggle2" htmlFor="checkbox2">
+                            <div id="bar4" className="bars"></div>
+                            <div id="bar5" className="bars"></div>
+                            <div id="bar6" className="bars"></div>
                         </label>
                     </div>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item navi py-1 pt-3"><a class="nav-link h-u-a" href="#home">Home</a></li>
-                        <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#about">About</a></li>
-                        <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#project">Project</a></li>
-                        <li class="nav-item navi py-1 pb-5"><a class="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs" target="_blank">Blog</a></li>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item navi py-1 pt-3"><a className="nav-link h-u-a" href="#home">Home</a></li>
+                        <li className="nav-item navi py-1"><a className="nav-link h-u-a" href="#about">About</a></li>
+                        <li className="nav-item navi py-1"><a className="nav-link h-u-a" href="#project">Project</a></li>
+                        <li className="nav-item navi py-1 pb-5"><a className="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs" target="_blank">Blog</a></li>
                     </ul>
                     <ul className="justify-content-center list-unstyled d-flex pt-3 pb-3" style={{backgroundColor: "gainsboro", boxShadow: "0px 4px 7px 1px #000"}}>
                         <li className="ms-3"><a href={facebook} className="text-body-secondary" target="_blank"><i className="fa-xl fa-brands fa-facebook" style={{color: "#3b5998"}}></i></a></li>

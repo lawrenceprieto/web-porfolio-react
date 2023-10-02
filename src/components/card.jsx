@@ -6,7 +6,6 @@ function Card(props) {
                     <img src={props.thumbnail} className="card-img" alt={props.title} />
                     <div className="card-img-overlay">
                         <button className="display-modal button" onClick={props.modal}><span>View</span></button>
-                        {/* <button className="display-offcanvas" onClick={props.offcanvas}><span>View</span></button> */}
                     </div>
                 </div>
             </div>

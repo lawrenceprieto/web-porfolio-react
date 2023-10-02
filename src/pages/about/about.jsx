@@ -1,5 +1,5 @@
 import "./about.css"
-import image from "../../assets/picture.jpg"
+// import image from "../../assets/picture.jpg"
 import html from "../../assets/tech-icon/html5.png"
 import css from "../../assets/tech-icon/css3.png"
 import javascript from "../../assets/tech-icon/javascript.png"
