@@ -33,7 +33,7 @@ function Header() {
                         <li class="nav-item navi py-1"><a class="nav-link h-u-a" href="#contact">Contact</a></li>
                         <li class="nav-item navi py-1 pb-5"><a class="nav-link h-u-a" href="https://lawrenceprieto.github.io/blogs" target="_blank">Blog</a></li>
                     </ul>
-                    <ul className="justify-content-center list-unstyled d-flex pt-3 pb-5">
+                    <ul className="justify-content-center list-unstyled d-flex pt-3 pb-3" style={{backgroundColor: "gainsboro", boxShadow: "0px 4px 7px 1px #000"}}>
                         <li className="ms-3"><a href={facebook} className="text-body-secondary" target="_blank"><i className="fa-xl fa-brands fa-facebook" style={{color: "#3b5998"}}></i></a></li>
                         <li className="ms-3"><a href={linkedin} className="text-body-secondary" target="_blank" ><i className="fa-xl fa-brands fa-linkedin" style={{color: "#0077b5"}}></i></a></li>
                         <li className="ms-3"><a href={github} className="text-body-secondary" target="_blank"><i className="fa-xl fa-brands fa-github" style={{color: "#171515"}}></i></a></li>
