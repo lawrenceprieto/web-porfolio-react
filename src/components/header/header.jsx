@@ -9,7 +9,7 @@ function Header() {
         <>
             <div className="header">
                 <div className="navigation">
-                    <span style={{fontSize: "30px", letterSpacing: "7px", fontWeight: "bolder", color: "gainsboro"}}>L.dev</span>
+                    <span style={{fontSize: "25px", letterSpacing: "7px", fontWeight: "bolder", color: "gainsboro"}}>L.dev</span>
                     <div className="desktop-navigation">
                         <span className="navi"><a href="#home" className="h-u-a">Home</a></span>
                         <span className="navi"><a href="#about" className="h-u-a">About</a></span>

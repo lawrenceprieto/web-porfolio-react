@@ -5,10 +5,10 @@ function Herobanner() {
     return (
         <>
             <div className="container-fluid home" id="home">
-                <div className="">
+                <div className="d-flex justify-content-center flex-column">
                     <div className="text-uppercase pb-2" style={{fontSize: "20px", letterSpacing: "3px" }}>Hello There!</div>
-                    <div className="text-uppercase fw-bold" style={{fontSize: "40px", letterSpacing: "5px"}}>i'm Lawrence, a junior developer</div>
-                    <div className="text-secondary" style={{fontSize: "40px", letterSpacing: "5px"}}>
+                    <div className="text-uppercase fw-bold heading">i'm Lawrence, a junior developer</div>
+                    <div className="text-secondary sub-head">
                         <TypewriterComponent
                             options={{
                             strings: ['Front-End Developer', 'Data Entry Specialist', "Web Researcher"],

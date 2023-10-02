@@ -9,3 +9,24 @@
     align-items: center;
     color: white;
 }
+
+.heading {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.sub-head {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width: 490px) {
+    .heading {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .sub-head {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+} 

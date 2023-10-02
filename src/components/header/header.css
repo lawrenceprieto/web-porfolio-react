@@ -40,7 +40,8 @@
     height: 45px;
 }
 
- @media screen and (max-width: 999px) {
+
+@media screen and (max-width: 999px) {
     .desktop-navigation {
         display: none;
     }
@@ -62,6 +63,9 @@
         position: fixed;
         z-index: 1;
         width: 100%;
+    }
+    .navigation {
+        padding: 0 10px;
     }
 }
 
@@ -110,20 +114,20 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
   
 .toggle2 {
     position: relative;
-    width: 64px;
-    height: 30px;
+    width: 60px;
+    height: 28px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 6px;
     transition-duration: .5s;
 }
   
 .bars {
-    width: 80%;
-    height: 5px;
+    width: 70%;
+    height: 3px;
     background-color: white;
     border-radius: 0;
 }
@@ -133,7 +137,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 }
   
 #bar4,#bar6 {
-    width: 70%;
+    width: 60%;
 }
   
 #checkbox2:checked + .toggle2 .bars {
@@ -147,13 +151,13 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 }
   
 #checkbox2:checked + .toggle2 #bar4 {
-    width: 60%;
+    width: 40%;
     transform: rotate(45deg);
     transition-duration: .5s;
 }
   
 #checkbox2:checked + .toggle2 #bar6 {
-    width: 60%;
+    width: 40%;
     transform: rotate(-45deg);
     transition-duration: .5s;
 }
