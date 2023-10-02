@@ -1,4 +1,5 @@
 import "./header.css"
+import logo from "../../assets/logo.png"
 
 function Header() {
     const facebook = "https://www.facebook.com/lawrenxceprieto";
@@ -8,7 +9,7 @@ function Header() {
         <>
             <div className="header">
                 <div className="navigation">
-                    <a href="#home"><img src="" alt="mypicture" className="mypicture" /></a>
+                    <span style={{fontSize: "30px", letterSpacing: "7px", fontWeight: "bolder", color: "gainsboro"}}>L.dev</span>
                     <div className="desktop-navigation">
                         <span className="navi"><a href="#home" className="h-u-a">Home</a></span>
                         <span className="navi"><a href="#about" className="h-u-a">About</a></span>
