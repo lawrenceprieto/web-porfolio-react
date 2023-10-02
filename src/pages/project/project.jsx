@@ -51,7 +51,6 @@ function Project() {
     function handleModal(project) {
         setSelectedProject(project);
         setModalShow(true);
-        console.log(project);
     }
 
     function closeModal() {
@@ -77,7 +76,6 @@ function Project() {
                                 description={project.description}
                                 thumbnail={project.thumbnail}
                                 modal={() => handleModal(project)}
-                                // offcanvas={() => handleOffcanvas(project)}
                             />
                         ))
                     }
