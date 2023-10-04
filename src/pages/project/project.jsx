@@ -1,5 +1,6 @@
 import "./project.css"
 import { useState } from "react"
+import snap from "../../assets/project-image/snap.gif"
 import treelife from "../../assets/project-image/tree-life.gif"
 import mini from "../../assets/project-image/mini-project.gif"
 import capstone from "../../assets/project-image/capstone.gif"
@@ -14,11 +15,20 @@ import bootstrap from "../../assets/tech-icon/bootstrap.png"
 import laravel from "../../assets/tech-icon/laravel.png"
 import mysql from "../../assets/tech-icon/mysql.png"
 import php from "../../assets/tech-icon/php.png"
+import vite from "../../assets/tech-icon/vite.png"
 
 
 function Project() {
 
     const projects = [
+        {
+            "title": "Snap",
+            "description": "Users should be able to: View the relevant dropdown menus on desktop and mobile when interacting with the navigation links, View the optimal layout for the content depending on their device's screen size, See hover states for all interactive elements on the page",
+            "thumbnail": snap,
+            "techs": [vite, javascript, react, bootstrap],
+            "github": "https://github.com/lawrenceprieto/snap?search=1",
+            "demo": "https://lawrenceprieto.github.io/snap"
+        },
         {
             "title": "Tree Life",
             "description": "Treelife is a website that aims to protecting trees",
