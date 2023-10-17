@@ -128,7 +128,7 @@ function Project() {
                             </div>
                             <div className="d-flex gap-3">
                                 <a className="button text-center w-50" href={selectedProject && selectedProject.github} rel="noreferrer" target="_blank"><span>Github</span></a>
-                                <a className="button text-center w-50" href={selectedProject && selectedProject.demo} rel="noreferrer" target="_blank"><span>Demo</span></a>
+                                <a className="button text-center w-50" href={selectedProject && selectedProject.demo} rel="noreferrer" target="_blank"><span>Live Link</span></a>
                             </div>
                         </div>
                     </div>
