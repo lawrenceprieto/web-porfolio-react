@@ -1,5 +1,6 @@
 import "./project.css"
 import { useState } from "react"
+import spacetourism from "../../assets/project-image/space-tourism.gif"
 import snap from "../../assets/project-image/snap.gif"
 import treelife from "../../assets/project-image/tree-life.gif"
 import mini from "../../assets/project-image/mini-project.gif"
@@ -21,6 +22,14 @@ import vite from "../../assets/tech-icon/vite.png"
 function Project() {
 
     const projects = [
+        {
+            "title": "Space Tourism",
+            "description": "Users should be able to: View the optimal layout for each of the website's pages depending on their device's screen size, See hover states for all interactive elements on the page, View each page and be able to toggle between the tabs to see new information",
+            "thumbnail": spacetourism,
+            "techs": [vite, javascript, react],
+            "github": "https://github.com/lawrenceprieto/space-tourism?search=1",
+            "demo": "https://lawrenceprieto.github.io/space-tourism"
+        },
         {
             "title": "Snap",
             "description": "Users should be able to: View the relevant dropdown menus on desktop and mobile when interacting with the navigation links, View the optimal layout for the content depending on their device's screen size, See hover states for all interactive elements on the page",
