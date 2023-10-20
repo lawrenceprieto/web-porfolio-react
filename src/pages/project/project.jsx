@@ -1,5 +1,6 @@
 import "./project.css"
 import { useState } from "react"
+import loopstudios from "../../assets/project-image/loopstudios.gif"
 import spacetourism from "../../assets/project-image/space-tourism.gif"
 import snap from "../../assets/project-image/snap.gif"
 import treelife from "../../assets/project-image/tree-life.gif"
@@ -22,6 +23,14 @@ import vite from "../../assets/tech-icon/vite.png"
 function Project() {
 
     const projects = [
+        {
+            "title": "Loopstudios",
+            "description": "Users should be able to: View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page",
+            "thumbnail": loopstudios,
+            "techs": [react, vite, javascript,],
+            "github": "https://github.com/lawrenceprieto/loopstudios?search=1",
+            "demo": "https://lawrenceprieto.github.io/loopstudios/"
+        },
         {
             "title": "Space Tourism",
             "description": "Users should be able to: View the optimal layout for each of the website's pages depending on their device's screen size, See hover states for all interactive elements on the page, View each page and be able to toggle between the tabs to see new information",
