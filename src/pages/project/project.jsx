@@ -28,7 +28,7 @@ function Project() {
             "title": "Easybank - Landing page",
             "description": "Users should be able to: View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page",
             "thumbnail": easybank,
-            "techs": [react, vite, javascript],
+            "techs": [react, vite, javascript, css],
             "github": "https://github.com/lawrenceprieto/easybank?search=1",
             "demo": "https://lawrenceprieto.github.io/easybank/"
         },
@@ -36,7 +36,7 @@ function Project() {
             "title": "Loopstudios - Landing page",
             "description": "Users should be able to: View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page",
             "thumbnail": loopstudios,
-            "techs": [react, vite, javascript,],
+            "techs": [react, vite, javascript, css],
             "github": "https://github.com/lawrenceprieto/loopstudios?search=1",
             "demo": "https://lawrenceprieto.github.io/loopstudios/"
         },
@@ -44,7 +44,7 @@ function Project() {
             "title": "Space Tourism",
             "description": "Users should be able to: View the optimal layout for each of the website's pages depending on their device's screen size, See hover states for all interactive elements on the page, View each page and be able to toggle between the tabs to see new information",
             "thumbnail": spacetourism,
-            "techs": [vite, javascript, react],
+            "techs": [vite, javascript, react, css],
             "github": "https://github.com/lawrenceprieto/space-tourism?search=1",
             "demo": "https://lawrenceprieto.github.io/space-tourism"
         },
@@ -52,7 +52,7 @@ function Project() {
             "title": "Snap - Landing page",
             "description": "Users should be able to: View the relevant dropdown menus on desktop and mobile when interacting with the navigation links, View the optimal layout for the content depending on their device's screen size, See hover states for all interactive elements on the page",
             "thumbnail": snap,
-            "techs": [vite, javascript, react, bootstrap],
+            "techs": [vite, javascript, react, bootstrap, css],
             "github": "https://github.com/lawrenceprieto/snap?search=1",
             "demo": "https://lawrenceprieto.github.io/snap"
         },
