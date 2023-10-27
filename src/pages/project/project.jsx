@@ -1,5 +1,6 @@
 import "./project.css"
 import { useState } from "react"
+import shortly from "../../assets/project-image/shortly.gif"
 import easybank from "../../assets/project-image/easybank.gif"
 import loopstudios from "../../assets/project-image/loopstudios.gif"
 import spacetourism from "../../assets/project-image/space-tourism.gif"
@@ -25,12 +26,12 @@ function Project() {
 
     const projects = [
         {
-            "title": "Easybank - Landing page",
-            "description": "Users should be able to: View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page",
-            "thumbnail": easybank,
-            "techs": [react, vite, javascript, css],
-            "github": "https://github.com/lawrenceprieto/easybank?search=1",
-            "demo": "https://lawrenceprieto.github.io/easybank/"
+            "title": "Shortly - Landing page",
+            "description": "Users should be able to: Shorten any valid URL, See a list of their shortened links, Copy the shortened link to their clipboard in a single click, View the optimal layout for the site depending on their device's screen size, Receive an error message when the form is submitted if: The input field is empty, The ulr inputed is invalid",
+            "thumbnail": shortly,
+            "techs": [react, vite, javascript, css, bootstrap],
+            "github": "https://github.com/lawrenceprieto/shortly?search=1",
+            "demo": "https://lawrenceprieto.github.io/shortly/"
         },
         {
             "title": "Loopstudios - Landing page",
@@ -39,6 +40,14 @@ function Project() {
             "techs": [react, vite, javascript, css],
             "github": "https://github.com/lawrenceprieto/loopstudios?search=1",
             "demo": "https://lawrenceprieto.github.io/loopstudios/"
+        },
+        {
+            "title": "Easybank - Landing page",
+            "description": "Users should be able to: View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page",
+            "thumbnail": easybank,
+            "techs": [react, vite, javascript, css],
+            "github": "https://github.com/lawrenceprieto/easybank?search=1",
+            "demo": "https://lawrenceprieto.github.io/easybank/"
         },
         {
             "title": "Space Tourism",
@@ -57,12 +66,12 @@ function Project() {
             "demo": "https://lawrenceprieto.github.io/snap"
         },
         {
-            "title": "Tree Life",
-            "description": "Treelife is a website that aims to protecting trees",
-            "thumbnail": treelife,
-            "techs": [javascript, react, bootstrap],
-            "github": "https://github.com/lawrenceprieto/tree-life?search=1",
-            "demo": ""
+            "title": "CourseCraft",
+            "description": "This project is created ushis project is created using react js for the frontend and laravel for the backending react js for the frontend and laravel for the backendhis project is created using react js for the frontend and laravel for the backend",
+            "thumbnail": capstone,
+            "techs": [javascript, react, laravel , mysql, php, bootstrap],
+            "github": "https://github.com/KeLsGaming23/CourseCraft?search=1",
+            "demo": "null"
         },
         {
             "title": "React",
@@ -73,12 +82,12 @@ function Project() {
             "demo": ""
         },
         {
-            "title": "CourseCraft",
-            "description": "This project is created ushis project is created using react js for the frontend and laravel for the backending react js for the frontend and laravel for the backendhis project is created using react js for the frontend and laravel for the backend",
-            "thumbnail": capstone,
-            "techs": [javascript, react, laravel , mysql, php, bootstrap],
-            "github": "https://github.com/KeLsGaming23/CourseCraft?search=1",
-            "demo": "null"
+            "title": "Tree Life",
+            "description": "Treelife is a website that aims to protecting trees",
+            "thumbnail": treelife,
+            "techs": [javascript, react, bootstrap],
+            "github": "https://github.com/lawrenceprieto/tree-life?search=1",
+            "demo": ""
         },
     ];
 
